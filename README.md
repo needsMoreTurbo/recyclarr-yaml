@@ -1,5 +1,5 @@
 # recyclarr-yaml
-Collection of YAML files for recyclarr
+Collection of YAML files for recyclarr based on https://trash-guides.info/
 
 Installation
 ============
