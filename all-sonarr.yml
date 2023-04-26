@@ -1,4 +1,8 @@
-# Configuration specific to Sonarr
+# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
+# https://recyclarr.dev/wiki/reference/config-reference
+
+# Load All Custom Formats into Sonarr
+
 sonarr:
   series:
     # Set the URL/API Key to your actual instance
