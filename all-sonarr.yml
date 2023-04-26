@@ -193,5 +193,3 @@ sonarr:
           - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
           - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
-
-The above Custom Formats are in YAML format and ready to be copied & pasted under the `trash_ids:` property.
