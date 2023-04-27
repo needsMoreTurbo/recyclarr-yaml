@@ -1,7 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
 # https://recyclarr.dev/wiki/reference/config-reference
 
-# Sonarr Quality Profile
+# Sonarr Quality Configuration (in Sonarr)
+
+#  Quality Profile Name: WEB-DL (1080p)
+#  Upgrades Allowed: Ticked
+#  Upgrade Until: WEB 1080p
+#  Minimum Custom Format Score: 0
+#  Upgrade Until Custom Format Score: 10000
+#  Selected Qualities (in order): BluRay-1080p, WEB-1080P, BluRay 720p, HDTV-1080p
+
+# Sonarr Quality Profile for Recyclarr
 
 sonarr:
   series:
