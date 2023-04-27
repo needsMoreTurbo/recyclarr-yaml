@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
 # https://recyclarr.dev/wiki/reference/config-reference
 
-# Sonarr Quality Profiles
+# Sonarr Quality Profile
 
 sonarr:
   series:
