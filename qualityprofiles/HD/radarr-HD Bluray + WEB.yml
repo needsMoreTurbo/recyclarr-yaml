@@ -4,12 +4,10 @@
 # Radarr Quality Profile
 
 radarr:
-  movies:
-    # Set the URL/API Key to your actual instance
+  radarr: # A custom name used to identify this particular instance
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
     api_key: !env_var RADARRAPI my_default_value your_api_key
 
-    # Which quality definition in the guide to sync to Radarr. Only choice right now is 'movie'
     quality_definition:
       type: movie
 
@@ -17,11 +15,6 @@ radarr:
       - name: HD Bluray + WEB
         reset_unmatched_scores: true
 
-    # Set to 'true' to automatically remove custom formats from Radarr when they are removed from
-    # the guide or your configuration. This will NEVER delete custom formats you manually created!
-    delete_old_custom_formats: false
-
- 
     #
     # Radarr - HD Bluray + WEB
     #

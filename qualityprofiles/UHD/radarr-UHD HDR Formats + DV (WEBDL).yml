@@ -17,10 +17,6 @@ radarr:
       - name: UHD HDR Formats + DV (WEBDL)
         reset_unmatched_scores: true
 
-    # Set to 'true' to automatically remove custom formats from Radarr when they are removed from
-    # the guide or your configuration. This will NEVER delete custom formats you manually created!
-    delete_old_custom_formats: false
-
     #
     # Radarr - UHD HDR Formats + DV (WEBDL)
     #
