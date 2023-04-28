@@ -7,7 +7,7 @@ radarr:
   movies:
     # Set the URL/API Key to your actual instance
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
-    api_key: RADARRAPI my_default_value your_api_key
+    api_key: !env_var RADARRAPI my_default_value your_api_key
 
     # Which quality definition in the guide to sync to Radarr. Only choice right now is 'movie'
     quality_definition:
