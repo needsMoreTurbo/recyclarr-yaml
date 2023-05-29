@@ -1,15 +1,8 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
-# https://recyclarr.dev/wiki/reference/config-reference
-# https://trash-guides.info/Recyclarr/recyclarr-configs/#web-1080p
-
-# Sonarr Quality Configuration (from TRaSH guides)
-
 # This config file is for use with Sonarr V4 only
-
 sonarr:
   sonarr-anime:  # A custom name used to identify this particular instance.
-    base_url: !env_var SONARRURL my_default_value http://localhost:8989
-    api_key: !env_var SONARRAPI my_default_value your_api_key
+    base_url: [sonarr_url_goes_here]
+    api_key: [api_key_goes_here]
 
     quality_definition:
       type: anime
