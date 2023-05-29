@@ -1,21 +1,6 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
-# https://recyclarr.dev/wiki/reference/config-reference
 
-# Load All Custom Formats into Sonarr
+List of Custom Formats in the TRaSH Guides:
 
-sonarr:
-  series:
-    # Set the URL/API Key to your actual instance
-    base_url: !env_var SONARRURL my_default_value http://localhost:8989
-    api_key: !env_var SONARRAPI my_default_value your_api_key
-
-    # Quality definitions from the guide to sync to Sonarr. Choices: series, anime
-    quality_definition:
-      type: series
-
-    custom_formats:
-      # Series
-      - trash_ids:
           # [No Category]
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
           - 1bef6c151fa35093015b0bfef18279e5 # 2160p
@@ -197,3 +182,5 @@ sonarr:
           - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
           - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
+
+The above Custom Formats are in YAML format and ready to be copied & pasted under the `trash_ids:` property.
