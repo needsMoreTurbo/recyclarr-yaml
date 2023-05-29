@@ -1,8 +1,8 @@
 # Updated: 2023-05-25
 radarr:
   radarr:  # A custom name used to identify this particular instance.
-    base_url: Put your Radarr URL here
-    api_key: Put your API key here
+    base_url: !env_var RADARRURL my_default_value http://localhost:7878
+    api_key: !env_var RADARRAPI my_default_value your_api_key
 
     quality_definition:
       type: movie
