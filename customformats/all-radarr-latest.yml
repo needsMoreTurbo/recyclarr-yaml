@@ -1,27 +1,5 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
-# https://recyclarr.dev/wiki/reference/config-reference
 
-# Load All Custom Formats into Radarr
-
-radarr:
-  movies:
-    # Set the URL/API Key to your actual instance
-    base_url: !env_var RADARRURL my_default_value http://localhost:7878
-    api_key: !env_var RADARRAPI my_default_value your_api_key
-
-    # Which quality definition in the guide to sync to Radarr. Only choice right now is 'movie'
-    quality_definition:
-      type: movie
-
-    delete_old_custom_formats: false
-
-    custom_formats:
-      # A # List of Custom Formats to sync to Radarr.
-      # Use `recyclarr list custom-formats radarr` for values you can put here.
-      # https://trash-guides.info/Radarr/Radarr-collection-of-custom-formats/
-      - trash_ids:
-
-# List of Custom Formats in the TRaSH Guides:
+List of Custom Formats in the TRaSH Guides:
 
           # [No Category]
           - 820b09bb9acbfde9c35c71e0e565dad8 # 1080p
@@ -208,4 +186,4 @@ radarr:
           - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
           - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
 
-# The above Custom Formats are in YAML format and ready to be copied & pasted under the `trash_ids:` property.
+The above Custom Formats are in YAML format and ready to be copied & pasted under the `trash_ids:` property.

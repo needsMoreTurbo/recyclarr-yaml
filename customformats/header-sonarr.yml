@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
+# https://recyclarr.dev/wiki/reference/config-reference
+
+# Load All Custom Formats into Sonarr
+
+sonarr:
+  series:
+    # Set the URL/API Key to your actual instance
+    base_url: !env_var SONARRURL my_default_value http://localhost:8989
+    api_key: !env_var SONARRAPI my_default_value your_api_key
+
+    # Quality definitions from the guide to sync to Sonarr. Choices: series, anime
+    quality_definition:
+      type: series
+
+    custom_formats:
+      # Series
+      - trash_ids:

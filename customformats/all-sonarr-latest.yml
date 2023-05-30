@@ -1,29 +1,9 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
-# https://recyclarr.dev/wiki/reference/config-reference
 
-# Load All Custom Formats into Sonarr
-
-sonarr:
-  series:
-    # Set the URL/API Key to your actual instance
-    base_url: !env_var SONARRURL my_default_value http://localhost:8989
-    api_key: !env_var SONARRAPI my_default_value your_api_key
-
-    # Quality definitions from the guide to sync to Sonarr. Choices: series, anime
-    quality_definition:
-      type: series
-
-    custom_formats:
-      # Series
-      - trash_ids:
-
-# List of Custom Formats in the TRaSH Guides:
+List of Custom Formats in the TRaSH Guides:
 
           # [No Category]
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
           - 1bef6c151fa35093015b0bfef18279e5 # 2160p
-          - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
-          - e3515e519f3b1360cbfc17651944354c # Anime LQ Groups
           - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
           - 5d9fd1b1e06cd8a475462f40214b7df6 # FLUX
 
@@ -56,6 +36,8 @@ sonarr:
           - 545a76b14ddc349b8b185a6344e28b04 # Anime BD Tier 05 (Remuxes)
           - 25d2afecab632b1582eaf03b63055f72 # Anime BD Tier 06 (FanSubs)
           - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07 (P2P/Scene)
+          - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
+          - e3515e519f3b1360cbfc17651944354c # Anime LQ Groups
           - b4a1b3d705159cdca36d71e57ca86871 # Anime Raws
           - e0014372773c8f0e1bef8824f00c7dc4 # Anime Web Tier 01 (Muxers)
           - 19180499de5ef2b84b6ec59aae444696 # Anime Web Tier 02 (Top FanSubs)
@@ -201,4 +183,4 @@ sonarr:
           - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
 
-# The above Custom Formats are in YAML format and ready to be copied & pasted under the `trash_ids:` property.
+The above Custom Formats are in YAML format and ready to be copied & pasted under the `trash_ids:` property.
