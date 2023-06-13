@@ -16,14 +16,11 @@ sonarr:
     custom_formats:
       # Series
       - trash_ids:
-
 # List of Custom Formats in the TRaSH Guides:
 
           # [No Category]
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
           - 1bef6c151fa35093015b0bfef18279e5 # 2160p
-          - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
-          - e3515e519f3b1360cbfc17651944354c # Anime LQ Groups
           - 6f808933a71bd9666531610cb8c059cc # BR-DISK (BTN)
           - 5d9fd1b1e06cd8a475462f40214b7df6 # FLUX
 
@@ -56,6 +53,8 @@ sonarr:
           - 545a76b14ddc349b8b185a6344e28b04 # Anime BD Tier 05 (Remuxes)
           - 25d2afecab632b1582eaf03b63055f72 # Anime BD Tier 06 (FanSubs)
           - 0329044e3d9137b08502a9f84a7e58db # Anime BD Tier 07 (P2P/Scene)
+          - c81bbfb47fed3d5a3ad027d077f889de # Anime BD Tier 08 (Mini Encodes)
+          - e3515e519f3b1360cbfc17651944354c # Anime LQ Groups
           - b4a1b3d705159cdca36d71e57ca86871 # Anime Raws
           - e0014372773c8f0e1bef8824f00c7dc4 # Anime Web Tier 01 (Muxers)
           - 19180499de5ef2b84b6ec59aae444696 # Anime Web Tier 02 (Top FanSubs)
@@ -113,6 +112,7 @@ sonarr:
           - 44b6c964dad997577d793fd004a39224 # FR Anime FanSub
           - db13a377f7afb29975ea39470434d2ef # FR Anime Tier 01
           - 4e6134a384dbc0ef166234cc0e45d26d # FR Anime Tier 02
+          - db34d4357937fbfe89b63ba095f22155 # FR Anime Tier 03
           - d844321db5e126d2e7e46152f0706532 # FR HD Bluray Tier 01
           - 3ba797e5dc13af4b8d9bb25e83d90de2 # FR LQ
           - b8e91cc8fb2bd96468fab74730c30d18 # FR Remux Tier 01
@@ -194,10 +194,13 @@ sonarr:
           - 0455d6519a550dbf648c97b56e7231d2 # SALTO
           - ae58039e1319178e6be73caab5c42166 # SHO
           - 1efe8da11bfd74fbbcd4d8117ddb9213 # STAN
+          - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
+          - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
           - 5d2317d99af813b6529c7ebf01c83533 # VDL
 
           # Unwanted
           - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
+          - fbcb31d8dabd2a319072b84fc0b7249c # Extras
           - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
 

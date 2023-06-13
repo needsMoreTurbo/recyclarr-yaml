@@ -95,6 +95,7 @@ List of Custom Formats in the TRaSH Guides:
           - 44b6c964dad997577d793fd004a39224 # FR Anime FanSub
           - db13a377f7afb29975ea39470434d2ef # FR Anime Tier 01
           - 4e6134a384dbc0ef166234cc0e45d26d # FR Anime Tier 02
+          - db34d4357937fbfe89b63ba095f22155 # FR Anime Tier 03
           - d844321db5e126d2e7e46152f0706532 # FR HD Bluray Tier 01
           - 3ba797e5dc13af4b8d9bb25e83d90de2 # FR LQ
           - b8e91cc8fb2bd96468fab74730c30d18 # FR Remux Tier 01
@@ -176,10 +177,13 @@ List of Custom Formats in the TRaSH Guides:
           - 0455d6519a550dbf648c97b56e7231d2 # SALTO
           - ae58039e1319178e6be73caab5c42166 # SHO
           - 1efe8da11bfd74fbbcd4d8117ddb9213 # STAN
+          - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
+          - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
           - 5d2317d99af813b6529c7ebf01c83533 # VDL
 
           # Unwanted
           - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
+          - fbcb31d8dabd2a319072b84fc0b7249c # Extras
           - 9c11cd3f07101cdba90a2d81cf0e56b4 # LQ
           - 47435ece6b99a0b477caf360e79ba0bb # x265 (HD)
 

@@ -16,11 +16,10 @@ radarr:
     delete_old_custom_formats: false
 
     custom_formats:
-      # A # List of Custom Formats to sync to Radarr.
+      # A list of custom formats to sync to Radarr.
       # Use `recyclarr list custom-formats radarr` for values you can put here.
       # https://trash-guides.info/Radarr/Radarr-collection-of-custom-formats/
       - trash_ids:
-
 # List of Custom Formats in the TRaSH Guides:
 
           # [No Category]
