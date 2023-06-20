@@ -1,8 +1,8 @@
 # This config file is for use with Sonarr V4 only
 sonarr:
   sonarr-anime:  # A custom name used to identify this particular instance.
-    base_url: [sonarr_url_goes_here]
-    api_key: [api_key_goes_here]
+    base_url: !env_var SONARRURL my_default_value http://localhost:7878
+    api_key: !env_var SONARRAPI my_default_value your_api_key
 
     quality_definition:
       type: anime
