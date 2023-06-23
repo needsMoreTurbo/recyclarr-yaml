@@ -9,6 +9,8 @@ radarr:
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
     api_key: !env_var RADARRAPI my_default_value your_api_key
 
+    replace_existing_custom_formats: true
+
     # Which quality definition in the guide to sync to Radarr. Only choice right now is 'movie'
     quality_definition:
       type: movie
@@ -19,7 +21,8 @@ radarr:
       # A list of custom formats to sync to Radarr.
       # Use `recyclarr list custom-formats radarr` for values you can put here.
       # https://trash-guides.info/Radarr/Radarr-collection-of-custom-formats/
-      - trash_ids:
+      - trash_ids:[INF] Cloning trash repository...
+
 # List of Custom Formats in the TRaSH Guides:
 
           # [No Category]

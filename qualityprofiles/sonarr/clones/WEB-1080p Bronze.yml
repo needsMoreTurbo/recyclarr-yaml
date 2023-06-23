@@ -10,7 +10,7 @@ sonarr:
 
     quality_profiles:
       - name: WEB-1080p Bronze
-        reset_unmatched_scores: true
+        reset_unmatched_scores: false
 
     custom_formats:
       # Scores from TRaSH json
