@@ -2,6 +2,7 @@
 # https://recyclarr.dev/wiki/reference/config-reference
 
 # Load All Custom Formats into Sonarr
+# Use recyclarr v5.0.1 or higher
 
 sonarr:
   series:
@@ -9,7 +10,7 @@ sonarr:
     base_url: !env_var SONARRURL my_default_value http://localhost:8989
     api_key: !env_var SONARRAPI my_default_value your_api_key
 
-    # replace_existing_custom_formats: true
+    replace_existing_custom_formats: true
 
     # Quality definitions from the guide to sync to Sonarr. Choices: series, anime
     quality_definition:

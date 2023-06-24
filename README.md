@@ -4,7 +4,7 @@ Collection of YAML files for recyclarr based on https://trash-guides.info/
 These files are created by processing the Trash Guide Documentation repo and are intended to simplify the process of keeping up to date with changes until there is facility to do this directly through recyclarr. The clones folders contains additional copies Quality Profiles to allow for setting of different parameters, for example "Miniumum" and "Update until" scores so you can tweak the profile based on the content you may be looking for and avoid multiple upgrades.
 
 ## Installation
-1) Install recyclarr using instructions on https://recyclarr.dev/wiki/
+1) Install recyclarr (v5.0.1 or higher) using instructions on https://recyclarr.dev/wiki/
 2) Configure a script to set environment variables for the URLs and API Keys referenced in the YAML files
 
 ## Usage
