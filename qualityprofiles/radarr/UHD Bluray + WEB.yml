@@ -4,8 +4,6 @@ radarr:
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
     api_key: !env_var RADARRAPI my_default_value your_api_key
 
-    replace_existing_custom_formats: true
-
     quality_definition:
       type: movie
 
