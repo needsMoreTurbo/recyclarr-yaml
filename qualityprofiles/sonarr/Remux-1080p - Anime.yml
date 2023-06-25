@@ -5,7 +5,7 @@ sonarr:
     api_key: !env_var SONARRAPI my_default_value your_api_key
 
     quality_definition:
-      type: anime
+      type: series
 
     quality_profiles:
       - name: Remux-1080p - Anime
