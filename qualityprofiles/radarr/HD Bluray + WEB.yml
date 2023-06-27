@@ -1,4 +1,4 @@
-# Updated: 2023-05-25
+# Updated: 2023-05-26
 radarr:
   radarr:   # A custom name used to identify this particular instance.
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
@@ -15,7 +15,6 @@ radarr:
       # Scores from TRaSH json
       - trash_ids:
           # Movie Versions
-          - 0f12c086e289cf966fa5948eac571f44  # Hybrid
           - 570bc9ebecd92723d2d21500f4be314c  # Remaster
           - eca37840c13c6ef2dd0262b141a5482f  # 4K Remaster
           - e0c07d59beb37348e975a930d5e50319  # Criterion Collection
@@ -42,6 +41,7 @@ radarr:
           # Streaming Services
           - cc5e51a9e85a6296ceefe097a77f12f4  # BCORE
           - 2a6039655313bf5dab1e43523b62c374  # MA
+          - 16622a6911d1ab5d5b8b713d5b0036d4  # CRiT
         quality_profiles:
           - name: HD Bluray + WEB
       # Custom Scoring
