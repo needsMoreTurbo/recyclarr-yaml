@@ -1,7 +1,7 @@
 # This config file is for use with Sonarr V4 only
-# Updated: 2023-07-19
+# Updated: 2023-08-01
 sonarr:
-  sonarr:  # A custom name used to identify this particular instance.
+  sonarr-sb:  # A custom name used to identify this particular instance.
     base_url: !env_var SONARRURL my_default_value http://localhost:7878
     api_key: !env_var SONARRAPI my_default_value your_api_key
 
@@ -9,7 +9,7 @@ sonarr:
       type: series
 
     quality_profiles:
-      - name: WEB-1080p Platinum
+      - name: WEB-1080p
         reset_unmatched_scores: false
 
     custom_formats:
@@ -54,4 +54,4 @@ sonarr:
           - d84935abd3f8556dcd51d4f27e22d0a6  # WEB Tier 03
           - d0c516558625b04b363fa6c5c2c7cfd4  # WEB Scene
         quality_profiles:
-          - name: WEB-1080p Platinum
+          - name: WEB-1080p
