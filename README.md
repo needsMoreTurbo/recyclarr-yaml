@@ -11,6 +11,8 @@ These files are created by processing the Trash Guide Documentation repo and are
 1) Run the customformats/all*.yml files first to update all custom formats
 2) Run the quality profiles for sonarr or radarr yamls as required (you will need to create them in the respective app first)
 
+There are 3 sets of files, working on the assumption that there are multiple instances. Recyclarr requires the instance to be unique, so I've created one for Default, 4k and a Seedbox (sb) instance.
+
 ## Notes
 If you would like more of the standard TRaSH guide Quality Profiles added here, please raise an issue.
 
