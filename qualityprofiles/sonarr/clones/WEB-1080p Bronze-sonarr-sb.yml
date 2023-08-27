@@ -28,7 +28,8 @@ sonarr:
 # Documentation: https://recyclarr.dev/wiki/yaml/config-reference/#quality-profiles
     quality_profiles:
       - name: WEB-1080p Bronze
-        reset_unmatched_scores: false
+        reset_unmatched_scores:
+          enabled: false
         upgrade:
           allowed: true
           until_quality: WEB 1080p
