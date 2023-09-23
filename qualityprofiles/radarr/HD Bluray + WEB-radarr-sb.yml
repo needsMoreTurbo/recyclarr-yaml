@@ -1,6 +1,6 @@
 ###################################################################################################
 # Recyclarr Configuration Template: HD Bluray + WEB                                               #
-# Updated: 2023-08-13                                                                             #
+# Updated: 2023-09-16                                                                             #
 # Documentation: https://recyclarr.dev                                                            #
 # Note: If you are using multiple profiles in a single instance, please read the following        #
 # documentation about file merging:                                                               #
@@ -15,16 +15,12 @@ radarr:
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
     api_key: !env_var RADARRAPI my_default_value your_api_key
 
-# Quality Definition
-# This section defines the Quality Definitions that will be used in your Radarr instance
-# Only one set of Quality Definitions can be used per instance
-# Documentation: https://recyclarr.dev/wiki/yaml/config-reference/quality-definition/
+    # Replaced include:
+      # - template hd-bluray-web
+
     quality_definition:
       type: movie
-
-# Quality Profiles
-# This section creates and/or updates Quality Profile(s) in your Radarr instance
-# Documentation: https://recyclarr.dev/wiki/yaml/config-reference/quality-profiles/
+    
     quality_profiles:
       - name: HD Bluray + WEB
         reset_unmatched_scores:
@@ -42,13 +38,8 @@ radarr:
               - WEBDL-1080p
               - WEBRip-1080p
           - name: Bluray-720p
-
-# Custom Formats
-# This section creates and/or updates Custom Formats in your Radarr instance,
-# and applies them and their scores to Quality Profiles
-# Documentation: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
+    
     custom_formats:
-      # Scores from TRaSH json
       - trash_ids:
           # Movie Versions
           - 570bc9ebecd92723d2d21500f4be314c  # Remaster
@@ -59,7 +50,7 @@ radarr:
           - 957d0f44b592285f26449575e8b1167e  # Special Edition
           - eecf3a857724171f968a66cb5719e152  # IMAX
           - 9f6cbff8cfe4ebbc1bde14c7b7bec0de  # IMAX Enhanced
-
+    
           # HQ Release Groups
           - ed27ebfef2f323e964fb1f61391bcb35  # HD Bluray Tier 01
           - c20c8647f2746a1f4c4262b0fbbeeeae  # HD Bluray Tier 02
@@ -67,27 +58,25 @@ radarr:
           - c20f169ef63c5f40c2def54abaf4438e  # WEB Tier 01
           - 403816d65392c79236dcb6dd591aeda4  # WEB Tier 02
           - af94e0fe497124d1f9ce732069ec8c3b  # WEB Tier 03
-
+    
           # Misc
           - e7718d7a3ce595f289bfee26adc178f5  # Repack/Proper
           - ae43b294509409a6a13919dedd4764c4  # Repack2
-
+    
           # Unwanted
           - ed38b889b31be83fda192888e2286d83  # BR-DISK
           - 90a6f9a284dff5103f6346090e6280c8  # LQ
           - dc98083864ea246d05a42df0d05f81cc  # x265 (HD)
           - b8cd450cbfa689c0259a01d9e29ba3d6  # 3D
-
+    
           # Streaming Services
           - cc5e51a9e85a6296ceefe097a77f12f4  # BCORE
-          - 2a6039655313bf5dab1e43523b62c374  # MA
           - 16622a6911d1ab5d5b8b713d5b0036d4  # CRiT
+          - 2a6039655313bf5dab1e43523b62c374  # MA
         quality_profiles:
           - name: HD Bluray + WEB
-
-      # Custom Scoring
+    
       - trash_ids:
-          # Streaming Services
           - b3b3a6ac74ecbd56bcdbefa4799fb9df  # AMZN
           - 40e9380490e748672c2522eaaeb692f7  # ATVP
           - f6ff65b3f4b464a79dcc75950fe20382  # CRAV
@@ -105,3 +94,4 @@ radarr:
         quality_profiles:
           - name: HD Bluray + WEB
             score: 0
+    
