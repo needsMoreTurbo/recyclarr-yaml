@@ -5,7 +5,7 @@
 # Use recyclarr v5.0.1 or higher
 
 radarr:
-  radarr-instance:
+  radarr:
     # Set the URL/API Key to your actual instance
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
     api_key: !env_var RADARRAPI my_default_value your_api_key

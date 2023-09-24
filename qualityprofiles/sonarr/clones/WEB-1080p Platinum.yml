@@ -12,7 +12,7 @@
 # This section defines your instance type, name, and authentication
 # Documentation: https://recyclarr.dev/wiki/yaml/config-reference/basic/
 sonarr:
-  sonarr:
+  web-1080p-v4:
     base_url: !env_var SONARRURL my_default_value http://localhost:7878
     api_key: !env_var SONARRAPI my_default_value your_api_key
 
@@ -20,10 +20,10 @@ sonarr:
       - template: web-1080p-v4
 
     quality_profiles: 
-      - name: WEB-1080p Bronze
+      - name: WEB-1080p Platinum
         reset_unmatched_scores: 
           enabled: false
         upgrade:
           allowed: true
-          until_score: 1500
-        min_format_score: 20
+          until_score: 1800
+        min_format_score: 1600

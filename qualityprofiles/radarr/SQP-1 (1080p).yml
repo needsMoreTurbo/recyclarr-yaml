@@ -11,7 +11,7 @@
 # This section defines your instance type, name, and authentication
 # Documentation: https://recyclarr.dev/wiki/yaml/config-reference/basic/
 radarr:
-  radarr-4k:
+  sqp-1-1080p:
     base_url: !env_var RADARRURL my_default_value http://localhost:7878
     api_key: !env_var RADARRAPI my_default_value your_api_key
 
