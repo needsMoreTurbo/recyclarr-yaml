@@ -19,7 +19,7 @@ sonarr:
     custom_formats:
       # Series
       - trash_ids:
-# Updating Git Repositories...
+ # Updating Git Repositories...
 
           # [No Category]
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p

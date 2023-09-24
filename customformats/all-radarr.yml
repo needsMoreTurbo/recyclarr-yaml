@@ -22,7 +22,7 @@ radarr:
       # A list of custom formats to sync to Radarr.
       # Use `recyclarr list custom-formats radarr` for values you can put here.
       # https://trash-guides.info/Radarr/Radarr-collection-of-custom-formats/
-      - trash_ids:# Updating Git Repositories...
+      - trash_ids: # Updating Git Repositories...
 
           # [No Category]
           - 820b09bb9acbfde9c35c71e0e565dad8 # 1080p
